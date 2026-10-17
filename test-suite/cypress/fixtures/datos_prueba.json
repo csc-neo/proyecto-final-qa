@@ -1,0 +1,22 @@
+{
+  "credenciales": {
+    "validas": { "usuario": "admin", "password": "admin" },
+    "password_incorrecta": { "usuario": "admin", "password": "clave_mala_123" },
+    "vacias": { "usuario": "", "password": "" }
+  },
+  "articulo": {
+    "valido": { "codigo": "QA-001", "descripcion": "Articulo de prueba QA", "precio": "150.00" },
+    "precio_negativo": { "codigo": "QA-002", "descripcion": "Precio negativo", "precio": "-50" },
+    "precio_limite_inferior": { "codigo": "QA-003", "descripcion": "Limite 0.01", "precio": "0.01" },
+    "precio_no_numerico": { "codigo": "QA-004", "descripcion": "No numerico", "precio": "abc" }
+  },
+  "cliente": {
+    "valido": { "nombre": "Cliente Prueba SA" },
+    "nombre_vacio": { "nombre": "" }
+  },
+  "orden_venta": {
+    "cantidad_valida": 5,
+    "cantidad_cero": 0,
+    "cantidad_excede_stock": 101
+  }
+}

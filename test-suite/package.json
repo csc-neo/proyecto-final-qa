@@ -1,0 +1,22 @@
+{
+  "name": "frontaccounting-qa-suite",
+  "version": "1.0.0",
+  "description": "Test Suite automatizado (Cypress) para el proyecto de QA de FrontAccounting ERP 2.4.20",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "test": "cypress run"
+  },
+  "keywords": [
+    "qa",
+    "cypress",
+    "frontaccounting",
+    "erp",
+    "testing"
+  ],
+  "author": "Equipo QA - Samayoa, Diaz, Schaad, Ortiz, Contreras",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^13.15.0"
+  }
+}
