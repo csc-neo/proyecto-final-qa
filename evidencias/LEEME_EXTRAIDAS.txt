@@ -1,0 +1,3 @@
+Capturas extraidas de los .docx del equipo. Copie cada carpeta TC-XX dentro de evidencias/ del repositorio.
+TC-05_docx_*: version del docx; ya existen TC-05_01 a _03 en el repositorio (revisar si son duplicadas y borrar las repetidas).
+TC-15_original_docx.jpg: captura de la primera ejecucion; la valida es la repetida (TC-15_01 y _02), conviene no subir esta.
